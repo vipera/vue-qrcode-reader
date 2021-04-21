@@ -133,7 +133,7 @@ export default {
     this.init();
   },
 
-  beforeDestroy() {
+  beforeUnmount() {
     this.beforeResetCamera();
     this.stopScanning();
     this.destroyed = true;
