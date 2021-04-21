@@ -122,7 +122,7 @@ export default {
     this.init();
   },
 
-  beforeDestroy() {
+  beforeUnmount() {
     this.beforeResetCamera();
     this.destroyed = true;
   },
